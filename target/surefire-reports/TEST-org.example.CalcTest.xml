@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.032" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.024" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="NZ"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\patri\AppData\Local\Temp\surefire12210441350605408217\surefirebooter10853568251968877073.jar C:\Users\patri\AppData\Local\Temp\surefire12210441350605408217 2024-08-15T13-11-45_299-jvmRun1 surefire15374982214066393221tmp surefire_0866691390482560551tmp"/>
+    <property name="sun.java.command" value="C:\Users\patri\AppData\Local\Temp\surefire9931051222910143332\surefirebooter15174154878245872446.jar C:\Users\patri\AppData\Local\Temp\surefire9931051222910143332 2024-08-15T13-13-40_434-jvmRun1 surefire16420090488604773716tmp surefire_011483325334677901801tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\patri\Desktop\159251\tutorial4\target\test-classes;C:\Users\patri\Desktop\159251\tutorial4\target\classes;C:\Users\patri\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\patri\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\patri\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\patri\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\patri\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\patri\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\patri\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.0\junit-jupiter-5.11.0.jar;C:\Users\patri\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\patri\AppData\Local\Temp\surefire12210441350605408217\surefirebooter10853568251968877073.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\patri\AppData\Local\Temp\surefire9931051222910143332\surefirebooter15174154878245872446.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16.1+1-LTS"/>
@@ -60,10 +60,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testSubtration" classname="org.example.CalcTest" time="0.024">
-    <failure message="expected: &lt;2&gt; but was: &lt;8&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2> but was: <8>
-	at org.example.CalcTest.testSubtration(CalcTest.java:15)
-]]></failure>
-  </testcase>
-  <testcase name="testAddition" classname="org.example.CalcTest" time="0.002"/>
+  <testcase name="testAddition" classname="org.example.CalcTest" time="0.014"/>
+  <testcase name="testSubtraction" classname="org.example.CalcTest" time="0"/>
 </testsuite>
